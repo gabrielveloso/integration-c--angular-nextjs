@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>Welcome, {{ adminName }}</h2>
+
+  <h3>Admin Users</h3>
+  <div class="admin-users-list">
+    <ul>
+      @for(u of adminUsers | async; track u.Id) {
+      <li>
+        <a href="{{ USER_URL }}">{{ u.email }}</a>
+      </li>
+      }
+    </ul>
+  </div>
+</div>

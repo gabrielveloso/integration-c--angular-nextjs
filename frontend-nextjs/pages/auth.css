@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.container {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 32px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-button {
+  background: red;
+  color: white;
+  width: auto;
+  margin-top: 0px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}

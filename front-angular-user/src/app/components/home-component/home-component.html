@@ -1,0 +1,19 @@
+<nav class="nav">
+  <div>User app</div>
+  <button class="btn-nav" (click)="goBack()">Back to Dashboard</button>
+</nav>
+
+<div class="container">
+  @if(user$ | async; as user) {
+
+  <h1>Welcome!</h1>
+
+  <h3>Logged as:</h3>
+  <p>User ID: {{ user.userId }}</p>
+  <p>Role: {{ user.role }}</p>
+
+  }@else{
+
+  <p>Loading session...</p>
+  }
+</div>
