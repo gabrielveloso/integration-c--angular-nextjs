@@ -100,7 +100,7 @@ The Angular Admin frontend will be available at:
 
 #### Data needed in the nexjs app
 
-Email: admin@gmai.com
+Email: admin@gmail.com
 password: 123456
 
 ### 4. Angular User Frontend
